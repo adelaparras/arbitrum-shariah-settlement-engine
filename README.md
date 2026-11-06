@@ -4,12 +4,27 @@
 [![Foundry](https://img.shields.io/badge/Built%20with-Foundry-orange.svg)](https://getfoundry.sh/)
 [![Network: Arbitrum AnyTrust](https://img.shields.io/badge/Network-Arbitrum%20AnyTrust-28A0F0.svg)](https://arbitrum.io/)
 [![Standard: AAOIFI](https://img.shields.io/badge/AAOIFI-SS--12%20%7C%20SS--20%20%7C%20SS--26-green.svg)](http://aaoifi.com/)
+[![Portal](https://img.shields.io/badge/Portal-CLTD%20European%20Digital%20Trade%20Center-blue)](https://solomonbrokerage.com/cltd/)
+
+## Mandatory Legal Attribution & Code vs. Strategy Dual-Licensing Notice (Estonian Copyright Act AutÕS § 12)
+
+> **Mandatory Attribution Notice:**  
+> This architectural component is derived from the Dual-Layer Architecture for Shariah-Compliant Digital Trade Finance (Digital Trade and Logistics Micro-Financing platform or 'DTLMF'), designed by Alejandro De La Parra Solomon (Founder & Concept Architect) and managed under the custodianship of Solomon Brokerage OÜ (Tallinn, Republic of Estonia; Registration No. 16253938). © 2025–2026. All rights reserved. Smart contract implementation licensed under MIT (SPDX-License-Identifier: MIT).
+
+## Shariah & Financial Governance Notice
+
+> **SHARIAH GOVERNANCE NOTICE:**  
+> While smart contract bytecodes are structurally engineered to align with AAOIFI Shariah Standards No. 12 (Musharakah), No. 20 (Murabaha), and No. 26 (Takaful), formal liquidity activation in commercial corridors is subject to an institution-specific Fatwa issued by an accredited Shariah Advisory Council.
+
+---
 
 ## Executive Overview
 
 **Arbitrum Shariah Settlement Engine** is the Layer 2 execution and financial clearing layer of the **Dual-Layer Trade & Logistics Monetary Framework (DTLMF)**. Built on Arbitrum AnyTrust for ultra-low latency, micro-fee trade execution, and high-throughput settlement, this suite implements certified Shariah-compliant financial contracts adhering strictly to AAOIFI (Accounting and Auditing Organization for Islamic Financial Institutions) standards.
 
 Architected by **Solomon Brokerage OÜ** and **Alejandro De La Parra Solomon**, this repository provides the decentralized finance and maritime logistics communities with an enterprise-grade, mathematically verified Shariah settlement framework.
+
+* **European Digital Trade Center Live Portal:** [https://solomonbrokerage.com/cltd/](https://solomonbrokerage.com/cltd/)
 
 ---
 
@@ -130,6 +145,7 @@ forge script script/DeployProductionDTLMF.s.sol:DeployProductionDTLMF \
 
 ## Intellectual Property & Licensing
 
-- **Copyright:** © 2026 Solomon Brokerage OÜ & Alejandro De La Parra Solomon. All Rights Reserved.
-- **License:** Open-sourced under the [MIT License](LICENSE).
+- **Attribution & Custodianship:** Managed under the custodianship of Solomon Brokerage OÜ (Tallinn, Republic of Estonia; Registration No. 16253938) and Alejandro De La Parra Solomon.
+- **Copyright:** © 2025–2026 Solomon Brokerage OÜ & Alejandro De La Parra Solomon. All Rights Reserved.
+- **License:** Open-sourced under the [MIT License](LICENSE) (SPDX-License-Identifier: MIT).
 - **Standards:** Formally verified against AAOIFI Shariah Standards No. 12, 20, and 26.
